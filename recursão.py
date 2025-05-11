@@ -18,3 +18,24 @@ def fibonacci(n):
 
 
 print(fibonacci(16))
+
+
+#prof
+#def	fib_rec(n):
+#if	n	<	2:
+# return	n
+#else:
+#return	fib_rec(n-1)	+	fib_rec(n-2)
+
+
+m =	dict()
+def	fib_mem(n):
+ if	n	<	2:
+    return	n
+ elif m.get(n)	!=	None:
+    return	m[n]
+ else:
+    m[n]	=	fib_mem(n-1)	+	fib_mem(n-2)
+    return	m[n]
+ 
+fib_mem(10)
