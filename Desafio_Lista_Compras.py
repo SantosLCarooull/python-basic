@@ -1,18 +1,18 @@
 """"
-Objetivo do desafio:Desenvolver um aplicativo que gerencie uma lista de compras que permita adicionar, 
-remover e listar os produtos adicionados nela. 
+Objetivo do desafio:Desenvolver um aplicativo que gerencie uma lista de compras que permita adicionar,
+remover e listar os produtos adicionados nela.
 
-Para isso, o seu aplicativo precisa ter as seguintes funcionalidades: 
+Para isso, o seu aplicativo precisa ter as seguintes funcionalidades:
 
-Menu de Opções: 
-O sistema deve fornecer um menu de opções para o usuário interagir. As opções devem ser as seguintes: 
- 
+Menu de Opções:
+O sistema deve fornecer um menu de opções para o usuário interagir. As opções devem ser as seguintes:
+
 Adicionar produto
 Remover produto
 Pesquisar produtos
-Sair do programa  
+Sair do programa
 
-Adicionar Produto: O usuário deve poder adicionar um novo produto à lista de compras. O sistema deve solicitar 
+Adicionar Produto: O usuário deve poder adicionar um novo produto à lista de compras. O sistema deve solicitar
 informações sobre o nome, unidade de medida, quantidade e descrição do produto. As opções de unidade devem ser:
 
 Quilograma
@@ -21,15 +21,15 @@ Litro
 Mililitro
 Unidade
 Metro
-Centímetro 
-Essas opções devem aparecer quando o sistema perguntar a unidade de medida.  
+Centímetro
+Essas opções devem aparecer quando o sistema perguntar a unidade de medida.
 
 Controle de ID Automático: O sistema deve atribuir automaticamente um ID único para cada produto adicionado à lista.
 
-Remover Produto: O usuário deve poder remover um produto da lista com base ID do produto. O sistema deve solicitar o 
+Remover Produto: O usuário deve poder remover um produto da lista com base ID do produto. O sistema deve solicitar o
 ID do produto que o usuário deseja remover.
 
-Pesquisar Produtos por Nome: O usuário deve poder pesquisar produtos na lista com base no nome ou parte do nome. 
+Pesquisar Produtos por Nome: O usuário deve poder pesquisar produtos na lista com base no nome ou parte do nome.
 O sistema deve exibir os resultados correspondentes e fornecer a contagem total de produtos encontrados.
 
 Listar Todos os Produtos: O sistema deve ser capaz de exibir todos os produtos presentes na lista de compras, se houver.
@@ -42,10 +42,10 @@ Cabeçalho do Aplicativo: Deve ser exibido um cabeçalho ao iniciar o aplicativo
 Feedback de Ação: Após a execução de uma ação (como adicionar ou remover um produto), o sistema deve fornecer feedback
 indicando o resultado da ação.
 
-Tratamento de Entradas Inválidas: O sistema deve ser capaz de lidar com entradas inválidas do usuário e fornecer 
+Tratamento de Entradas Inválidas: O sistema deve ser capaz de lidar com entradas inválidas do usuário e fornecer
 mensagens de erro apropriadas para orientar o usuário.
 
-Encerramento do Programa: O usuário deve poder encerrar o programa de forma adequada, escolhendo a opção de saída no 
+Encerramento do Programa: O usuário deve poder encerrar o programa de forma adequada, escolhendo a opção de saída no
 menu.
 """""
 

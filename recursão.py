@@ -37,5 +37,5 @@ def	fib_mem(n):
  else:
     m[n]	=	fib_mem(n-1)	+	fib_mem(n-2)
     return	m[n]
- 
+
 fib_mem(10)

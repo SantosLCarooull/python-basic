@@ -6,17 +6,17 @@ class pilha():
     def push(self, x):
         self.data.append(x) #add elemento a pilha
 
-    def pop(self): 
+    def pop(self):
         if len(self.data) > 0:
             return self.data.pop() #retira elemento da pilha
-    
+
     def top(self):
         if len(self.data) > 0:
             return self.data[-1] #retorna o elemento da cima da pilha
-        
+
     def empty(self):
         return not len(self.data) > 0 #retorna True se a pilha está vazia
-    
+
 p = pilha() #converter para binário
 num = 39
 while num > 0:

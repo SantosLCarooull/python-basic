@@ -1,11 +1,11 @@
-"""" 
-Desenvolver um aplicativo de calculadora que funcione via linha de comando 
-(terminal). O usuário deve ser capaz de escolher entre diferentes operações 
-matemáticas, inserir números para realizar os cálculos, e navegar no menu do 
+""""
+Desenvolver um aplicativo de calculadora que funcione via linha de comando
+(terminal). O usuário deve ser capaz de escolher entre diferentes operações
+matemáticas, inserir números para realizar os cálculos, e navegar no menu do
 aplicativo.
 Requisitos Funcionais
 Menu Principal
-Ao iniciar, o aplicativo deve exibir um menu principal com as seguintes 
+Ao iniciar, o aplicativo deve exibir um menu principal com as seguintes
 opções:
 1 - Soma
 2 - Subtração
@@ -13,14 +13,14 @@ opções:
 4 - Divisão
 s - Sair
 O usuário escolhe uma operação digitando o número correspondente.
-Se o usuário digitar "s", o aplicativo deve exibir uma mensagem de 
-agradecimento e encerrar. 
+Se o usuário digitar "s", o aplicativo deve exibir uma mensagem de
+agradecimento e encerrar.
 Execução da Operação
-Após escolher uma operação, o usuário deve ser solicitado a inserir dois 
-números, um por vez, pressionando "Enter" após cada um. O aplicativo calcula 
+Após escolher uma operação, o usuário deve ser solicitado a inserir dois
+números, um por vez, pressionando "Enter" após cada um. O aplicativo calcula
 e exibe o resultado da operação escolhida com os números fornecidos.
 Dica: tome cuidado com divisões por zero!
-Após exibir o resultado, o aplicativo retorna automaticamente ao menu 
+Após exibir o resultado, o aplicativo retorna automaticamente ao menu
 principal
 
 """""
